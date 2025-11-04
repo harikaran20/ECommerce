@@ -1,6 +1,6 @@
 package com.Selenium;
 
-import org.jspecify.annotations.Nullable;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -13,7 +13,7 @@ public class BrowserLaunch {
 		driver.get("https://www.amazon.in/");
 		driver.manage().window().maximize();
 		String title = driver.getTitle();
-		System.out.println(title);
+		System.out.println(title); 
 		String currentUrl = driver.getCurrentUrl();
 		System.out.println(currentUrl);
 		Thread.sleep(3000);

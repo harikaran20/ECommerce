@@ -12,4 +12,7 @@ public class Two {
 		 Two two = new Two();
 		 two.compID();
 	}
+	public void userID() {
+		System.out.println("USER");
+	}
 }
