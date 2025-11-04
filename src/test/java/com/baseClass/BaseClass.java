@@ -246,14 +246,14 @@ public class BaseClass {
 //	}
 	
 	public void implicitWait() {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
 	}
 	
 	//or
 	
 	public void implicitWit(int seconds) {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(seconds));
 	}
 	
 	public static void getDriver(String browsertype) {
