@@ -12,6 +12,8 @@ public class Yes {
 		WebElement newRel = driver.findElement(By.xpath("(//a[contains(text(),'New Releases')])[1]"));
 		newRel.click();
 		
+		
+		
 	}
 
 }
